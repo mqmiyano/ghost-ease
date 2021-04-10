@@ -1,4 +1,8 @@
 # change log
+- 4/10/21: created default2.hbs, which is the same as default.hbs but does not have the intro text and photo
+    - using default2.hbs in: tag.hbs, post.hbs, page.hbs
+    - important: if changes are made to default.hbs, check to see if it also needs to be changed in default2.hbs
+- 4/10/21: removed the 'you might also like' from post.hbs
 - 4/9/21: switched the order of "cover" and "body" in default.hbs
     - got started using this guide: https://ghost.org/docs/tutorials/custom-home-page/
     - overall goal is to retain functionality of tagged articles displayed under tags, but remove cover features (cover, description, and search). but couldn't figure out how without potentially impacting other things

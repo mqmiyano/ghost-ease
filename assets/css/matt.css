@@ -28,4 +28,7 @@ also using flex to make photo and text inline */
   text-decoration: underline;
 }
 
+.self-intro-text-container a:hover {
+  color: #0000CD;
+}
 
