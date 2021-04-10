@@ -7,6 +7,7 @@
     <title>{{meta_title}}</title>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i">
+    <link rel="stylesheet" href="{{asset "css/matt.css"}}">
 
     <script>
         var siteUrl = '{{@site.url}}';
@@ -18,12 +19,20 @@
 <body class="{{body_class}}{{block "body_class"}}">
     <div class="site">
         {{> header}}
-        {{#is "home"}}
-            {{> cover}}
-        {{/is}}
+        <div class="self-intro-container">
+            <img src="Matt Miyano3984.png">
+            <div class="self-intro-text-container">
+                <h1>Hello World! I'm Matt.</h1>
+                <h3>I am often <a href="https://www.linkedin.com/in/mqmiyano/" target="_blank">working with big data</a>, and <a href="https://www.instagram.com/mattmiyano/" target="_blank">making music</a>, and <a href="https://www.strava.com/athletes/67983815" target="_blank">staying active</a>.</h3>
+                <h3>I occasionally write about these topics and whatever else is on my mind.</h3>
+            </div>
+        </div>
         <div class="site-content">
             {{{body}}}
         </div>
+        {{#is "home"}}
+            {{> cover}}
+        {{/is}}
         {{> footer}}
     </div>
 

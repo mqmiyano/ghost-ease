@@ -1,0 +1,31 @@
+/* copying the same styles from .container in grid.css so that the margin and padding is the same 
+also using flex to make photo and text inline */
+.self-intro-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  max-width: calc(1130px + 8vw);
+  width: 100%;
+  display: flex;
+}
+
+/* make the intro text vertically aligned */
+.self-intro-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.self-intro-container img {
+  width: 25%;
+  height: 25%;
+  padding: 20px 5%;
+  border-radius: 50%;
+}
+
+.self-intro-text-container a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+

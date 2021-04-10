@@ -1,3 +1,12 @@
+# change log
+- 4/9/21: switched the order of "cover" and "body" in default.hbs
+    - got started using this guide: https://ghost.org/docs/tutorials/custom-home-page/
+    - overall goal is to retain functionality of tagged articles displayed under tags, but remove cover features (cover, description, and search). but couldn't figure out how without potentially impacting other things
+        - currently removed cover, description, and search by deleting cover photo here: https://matt-miyano.ghost.io/ghost/#/settings?showBrandingModal=true
+- 4/9/21: adding intro text above "body" in default.hbs    
+    - formatted intro text by creating matt.css
+
+
 # Ease
 
 A versatile theme suitable for documentation. Publish your posts or business information with ease. Completely free and fully responsive, released under the MIT license.
