@@ -3,6 +3,8 @@ also using flex to make photo and text inline */
 .self-intro-container {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   padding-right: 4vw;
   padding-left: 4vw;
   max-width: calc(1130px + 8vw);
