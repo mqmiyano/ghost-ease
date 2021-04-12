@@ -1,13 +1,22 @@
 # change log
-- 4/10/21: created default2.hbs, which is the same as default.hbs but does not have the intro text and photo
-    - using default2.hbs in: tag.hbs, post.hbs, page.hbs
+- 4/11/21: 
+    - shaded header on all pages
+        - searched for .site-header and replaced 3 css selectors for background-color
+    - removed box shadow from header 
+        - searched for .navbar and var(--navbar-height);box-shadow and replaced 3 css selectors for box-shadow
+- 4/10/21: 
+    - created default2.hbs, which is the same as default.hbs but does not have the intro text and photo
+        - using default2.hbs in: tag.hbs, post.hbs, page.hbs
     - important: if changes are made to default.hbs, check to see if it also needs to be changed in default2.hbs
-- 4/10/21: removed the 'you might also like' from post.hbs
-- 4/9/21: switched the order of "cover" and "body" in default.hbs
-    - got started using this guide: https://ghost.org/docs/tutorials/custom-home-page/
-    - overall goal is to retain functionality of tagged articles displayed under tags, but remove cover features (cover, description, and search). but couldn't figure out how without potentially impacting other things
-        - currently removed cover, description, and search by deleting cover photo here: https://matt-miyano.ghost.io/ghost/#/settings?showBrandingModal=true
-- 4/9/21: adding intro text above "body" in default.hbs    
+- 4/10/21: 
+    - removed the 'you might also like' from post.hbs
+- 4/9/21: 
+    - switched the order of "cover" and "body" in default.hbs
+        - got started using this guide: https://ghost.org/docs/tutorials/custom-home-page/
+        - overall goal is to retain functionality of tagged articles displayed under tags, but remove cover features (cover, description, and search). but couldn't figure out how without potentially impacting other things
+    - currently removed cover, description, and search by deleting cover photo here: https://matt-miyano.ghost.io/ghost/#/settings?showBrandingModal=true
+- 4/9/21: 
+    - adding intro text above "body" in default.hbs    
     - formatted intro text by creating matt.css
 
 

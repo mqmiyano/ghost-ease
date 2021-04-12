@@ -1,5 +1,5 @@
 .site-header {
-    background-color: var(--white-color);
+    background-color: #f8fafc;
 }
 
 .navbar {
@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     height: var(--navbar-height);
-    box-shadow: 0 1px 0 var(--mid-gray-color);
+    box-shadow: 0 0px 0 var(--mid-gray-color);
 }
 
 .home-template .navbar {
