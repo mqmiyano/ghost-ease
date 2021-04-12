@@ -1,5 +1,9 @@
 # change log
 - 4/11/21: 
+    - reduced size of post image 
+        - searched for .post-image and modified the following properties for 3 selectors: display, margin-left, margin-right, width (to reduce img then center)
+    - had to also remove background-color, as once image was reduced, random background color was showing
+        - searched for .u-placeholder and replaced 3 css selectors for background-color 
     - shaded header on all pages
         - searched for .site-header and replaced 3 css selectors for background-color
     - removed box shadow from header 
