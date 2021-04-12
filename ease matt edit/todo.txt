@@ -1,0 +1,4 @@
+- check styles on mobile
+- check dev documentation to test all changes for bugs
+- customization subscribe button (redirect after subscribing)
+  - change name of site, so it's say your are subscribing to <name of site> instead of subscribing to matt miyano
